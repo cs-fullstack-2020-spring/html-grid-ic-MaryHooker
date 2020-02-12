@@ -1,0 +1,71 @@
+html{
+    height:100%;
+}
+
+
+#container{
+    background-color: blueviolet;
+    display: grid; 
+    grid-template-columns:repeat( 5, 1fr );
+    grid-template-rows: repeat(4, 15% 35% 35% 15%);
+    height:100%;
+    gap: 15px;
+    
+    
+}
+
+.One{
+
+    background-color: blue;
+    border: solid black 5px;
+    grid-column:2/3;
+    grid-row: 2;
+    height: 250px;
+    width: 250px;
+
+}
+
+.Two{
+    background-color: blue;
+    border: solid black 5px;
+    grid-column: 3/4;
+    grid-row: 2;
+    height: 250px;
+    width: 250px;
+}
+
+.Three{
+    background-color: blue;
+    border: solid black 5px;
+    grid-column: 4/5;
+    grid-row: 2;
+    height: 250px;
+    width: 250px;
+}
+
+.Four{
+    background-color: blue;
+    border: solid black 5px;
+    grid-column: 2/3;
+    grid-row: 3;
+    height: 250px;
+    width: 250px;
+}
+
+.Five{
+    background-color: blue;
+    border: solid black 5px;
+    grid-column: 3/4;
+    grid-row: 3;
+    height: 250px;
+    width: 250px;
+}
+
+.Six{
+    background-color: blue;
+    border: solid black 5px;
+    grid-column: 4/5;
+    grid-row: 3;
+    height: 250px;
+    width: 250px;
+}
